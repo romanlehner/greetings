@@ -9,5 +9,5 @@ This little module was created to learn and test the go dependency management sy
 ## Todo
 - change module location - code migration impact and process
 - major version update
-- using interfaces to implement different languages
+- using package hirachy to create greetings.helloWorld.english()
 - updating file hirachy 
