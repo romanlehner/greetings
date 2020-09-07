@@ -1,7 +1,6 @@
 package greetings
 
-import "fmt"
-
-func helloWorld() {
-	fmt.Println("Hello World")
+// HelloWorld returns a Hello World string
+func HelloWorld() string {
+	return "Hello World"
 }
