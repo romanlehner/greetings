@@ -2,5 +2,5 @@ package greetings
 
 // HelloWorld returns a Hello World string
 func HelloWorld() string {
-	return "Hello World"
+	return "Hello World!"
 }
