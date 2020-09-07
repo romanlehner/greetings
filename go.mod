@@ -1,3 +1,3 @@
-module github.com/romanlehner/golang-greetings-module
+module github.com/romanlehner/greetings
 
 go 1.15
