@@ -15,3 +15,10 @@ func TestHelloWorldJapanese(t *testing.T) {
 		t.Errorf("HelloWorldJapanese() = %q, want %q", got, want)
 	}
 }
+
+func TestHelloWorldGerman(t *testing.T) {
+	want := "Hallo Welt!"
+	if got := HelloWorldGerman(); got != want {
+		t.Errorf("HelloWorldGerman() = %q, want %q", got, want)
+	}
+}

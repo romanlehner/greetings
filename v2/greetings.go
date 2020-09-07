@@ -9,3 +9,8 @@ func HelloWorldEnglish() string {
 func HelloWorldJapanese() string {
 	return "こんにちは 世界!"
 }
+
+// HelloWorldGerman returns a Hello World string in german language
+func HelloWorldGerman() string {
+	return "Hallo Welt!"
+}
