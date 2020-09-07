@@ -2,9 +2,16 @@ package greetings
 
 import "testing"
 
-func TestHelloWorld(t *testing.T) {
+func TestHelloWorldEnglish(t *testing.T) {
 	want := "Hello World!"
-	if got := HelloWorld(); got != want {
+	if got := HelloWorldEnglish(); got != want {
 		t.Errorf("HelloWorld() = %q, want %q", got, want)
+	}
+}
+
+func TestHelloWorldJapanese(t *testing.T) {
+	want := "こんにちは 世界!"
+	if got := HelloWorldJapanese(); got != want {
+		t.Errorf("HelloWorldJapanese() = %q, want %q", got, want)
 	}
 }
