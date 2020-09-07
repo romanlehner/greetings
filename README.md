@@ -7,7 +7,7 @@ This little module was created to learn and test the go dependency management sy
 ... in progress
 
 ## Todo
-
+- change module location - code migration impact and process
 - major version update
 - using interfaces to implement different languages
 - updating file hirachy 
