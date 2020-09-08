@@ -1,3 +1,3 @@
-module github.com/romanlehner/greetings/v2
+module github.com/romanlehner/greetings
 
 go 1.15
